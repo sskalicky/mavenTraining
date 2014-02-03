@@ -11,6 +11,7 @@
   <name>Multi Chapter Simple Parent Project</name>
 
   <modules>
+    <module>simple-command</module>
     <module>simple-model</module>
     <module>simple-weather</module>
     <module>simple-persist</module>
