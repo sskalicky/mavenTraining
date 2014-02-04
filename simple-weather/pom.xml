@@ -12,46 +12,12 @@
   <packaging>jar</packaging>
 
   <name>Simple Weather</name>
-  <url>http://maven.apache.org</url>
-
-  <licenses>
-    <license>
-      <name>Apache 2</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-      <distribution>repo</distribution>
-      <comments>A business-friendly OSS license</comments>
-    </license>
-  </licenses>
-
-  <organization>
-    <name>SS</name>
-    <url>http://www.ss.cz</url>
-  </organization>
-
-  <developers>
-    <developer>
-      <id>ss</id>
-      <name>stsk</name>
-      <email>st@sk.cz</email>
-      <url>http://www.ss.cz</url>
-      <organization>SS</organization>
-      <organizationUrl>http://www.ss.cz</organizationUrl>
-      <roles>
-        <role>developer</role>
-      </roles>
-      <timezone>+1</timezone>
-    </developer>
-  </developers>
-
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
 
   <dependencies>
     <dependency>
-      <groupId>cz.ss.training</groupId>
+      <groupId>${project.groupId}</groupId>
       <artifactId>simple-model</artifactId>
-      <version>1.0</version>
+      <version>${project.version}</version>
     </dependency>
     <dependency>
       <groupId>log4j</groupId>
